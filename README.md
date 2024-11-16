@@ -2,7 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-green)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 A **Book Catalog Application** é uma aplicação baseada em terminal desenvolvida em Java para gerenciar um catálogo de livros. Ela integra dados da [Gutendex API](https://gutendex.com/) e utiliza um banco de dados PostgreSQL local para armazenar e consultar informações, oferecendo uma navegação fácil por menu e funcionalidades avançadas de consulta e filtragem.
