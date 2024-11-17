@@ -83,7 +83,7 @@ public class SaveDataApi {
                 for (JsonNode authorNode : authorsArray) {
                     DadosAuthor dadosAuthor = objectMapper.convertValue(authorNode, DadosAuthor.class);
                     String nomeAutor = dadosAuthor.nome().replace(",", "").trim();
-                    //Optional<Author> authorOptional = authorRepository.findByNome(dadosAuthor.nome());
+                    
                     Optional<Author> authorOptional = authorRepository.findByNome(nomeAutor);
                     Author author = authorOptional.orElseGet(() -> {
 
